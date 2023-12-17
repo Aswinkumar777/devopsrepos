@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: firstpod
+  name: finalpodseven
   namespace: default
 spec:
   containers:
-  - name: firstcont
+  - name: newcont
     image: nginx
-  - name: secondcont
+  - name: finalcont
     image: httpd
