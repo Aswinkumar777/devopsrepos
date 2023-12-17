@@ -5,5 +5,7 @@ metadata:
   namespace: default
 spec:
   containers:
-    name: firstcont
+  - name: firstcont
     image: nginx
+  - name: secondcont
+    image: httpd
